@@ -41,27 +41,9 @@ button#dislike {
     background: linear-gradient(to right, #32cd32 50%, #ff6347 50%);
 }
 
-.score-bar {
-    width: 80%;
-    margin: 2% auto; /* Using percentage for margin */
-    height: 2vw; /* Using viewport width unit for height */
-    background-color: #f0f0f0;
-    position: relative;
-}
-
-.score-bar-fill-technician,
-.score-bar-fill-artist {
-    height: 100%;
-    position: absolute;
-    top: 0;
-}
-
-.score-bar-fill-technician {
-    left: 0;
-}
-
-.score-bar-fill-artist {
-    right: 0;
+.logo {
+    width: 50px; /* Changer la largeur selon vos besoins */
+    height: 50px; /* Changer la hauteur selon vos besoins */
 }
 
 .category-label {
