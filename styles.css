@@ -81,7 +81,8 @@ button#dislike {
 
 .card {
     width: 80%; /* Using percentage for width */
-    height: 60vw; /* Using viewport width unit for height */
+    height: auto; /* Adjust the height to fit the content */
+    max-height: 60vh; /* Limit the maximum height to 60% of the viewport height */
     overflow: hidden; /* Ensure images don't overflow */
     margin: 5% auto; /* Using percentage for margin */
 }
@@ -113,6 +114,6 @@ button#dislike {
     
     .card {
         width: 90%;
-        height: 80vw;
+        max-height: 80vh; /* Adjust the maximum height for smaller screens */
     }
 }
