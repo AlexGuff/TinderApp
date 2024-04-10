@@ -11,6 +11,11 @@ html, body {
     margin-top: 5%; /* Using percentage for margin */
 }
 
+.logo {
+    width: 5px; /* Changer la largeur selon vos besoins */
+    height: 5px; /* Changer la hauteur selon vos besoins */
+}
+
 .container h1 {
     font-size: 3vw; /* Using viewport width unit for font size */
 }
@@ -19,10 +24,7 @@ html, body {
     font-size: 1.5vw; /* Using viewport width unit for font size */
 }
 
-.logo {
-    width: 5px; /* Changer la largeur selon vos besoins */
-    height: 5px; /* Changer la hauteur selon vos besoins */
-}
+
 
 .container button {
     padding: 1.5vw 3vw; /* Using viewport width unit for padding */
