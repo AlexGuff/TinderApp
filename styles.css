@@ -19,6 +19,11 @@ html, body {
     font-size: 1.5vw; /* Using viewport width unit for font size */
 }
 
+.logo {
+    width: 5px; /* Changer la largeur selon vos besoins */
+    height: 5px; /* Changer la hauteur selon vos besoins */
+}
+
 .container button {
     padding: 1.5vw 3vw; /* Using viewport width unit for padding */
     border-radius: 5px;
@@ -41,10 +46,6 @@ button#dislike {
     background: linear-gradient(to right, #32cd32 50%, #ff6347 50%);
 }
 
-.logo {
-    width: 5px; /* Changer la largeur selon vos besoins */
-    height: 5px; /* Changer la hauteur selon vos besoins */
-}
 
 .category-label {
     position: absolute;
