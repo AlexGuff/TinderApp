@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.container {
+    text-align: center;
+    margin-top: 5%; /* Using percentage for margin */
+}
+
+.container h1 {
+    font-size: 3vw; /* Using viewport width unit for font size */
+}
+
+.container p {
+    font-size: 1.5vw; /* Using viewport width unit for font size */
+}
+
+.container button {
+    padding: 1.5vw 3vw; /* Using viewport width unit for padding */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #32cd32;
+    color: white;
+}
+
+button#dislike {
+    background-color: #ff6347; /* Rouge */
+    color: white;
+}
+
+.result {
+    width: 80%;
+    margin: 5% auto; /* Using percentage for margin */
+    height: 2vw; /* Using viewport width unit for height */
+    border-radius: 15px;
+    background: linear-gradient(to right, #32cd32 50%, #ff6347 50%);
+}
+
+.score-bar {
+    width: 80%;
+    margin: 2% auto; /* Using percentage for margin */
+    height: 2vw; /* Using viewport width unit for height */
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.score-bar-fill-technician,
+.score-bar-fill-artist {
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.score-bar-fill-technician {
+    left: 0;
+}
+
+.score-bar-fill-artist {
+    right: 0;
+}
+
+.category-label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+}
+
+.technician-label {
+    left: 2%; /* Using percentage for positioning */
+}
+
+.artist-label {
+    right: 2%; /* Using percentage for positioning */
+}
+
+.card {
+    width: 80%; /* Using percentage for width */
+    height: 60vw; /* Using viewport width unit for height */
+    overflow: hidden; /* Ensure images don't overflow */
+    margin: 5% auto; /* Using percentage for margin */
+}
+
+.card img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Make the image fill the container */
+    object-fit: cover; /* Ensure the image covers the container */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .container h1 {
+        font-size: 5vw;
+    }
+    
+    .container p {
+        font-size: 3vw;
+    }
+    
+    .container button {
+        padding: 3vw 5vw;
+    }
+    
+    .result,
+    .score-bar {
+        width: 90%;
+    }
+    
+    .card {
+        width: 90%;
+        height: 80vw;
+    }
+}
